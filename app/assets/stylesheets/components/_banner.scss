@@ -96,7 +96,6 @@
 
 
 .ss-banner{
-  font-size: 20px;
   color: black;
   text-align: center;
   height: 93vh;
@@ -110,20 +109,53 @@
   column-gap: 40px;
   margin: 0 150px;
 }
-.ss-banner-content h1{
-  margin: 25px;
+
+.ss-column {
+  column-count: 1;
+  height: 450px;
+
+}
+.ss-banner-content h2{
+  font-size: 20px;
+  margin: 20px;
 
 }
 .ss-parragraph {
   text-align: justify;
+  font-size: 15px;
 }
 
 .cl-banner {
   text-align: center;
-  display: flex;
   align-items: center;
 }
 
 
+.he-banner{
+  color: black;
+  text-align: center;
+  height: 93vh;
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+}
 
+.he-columns {
+  column-count: 4;
+  column-gap: 30px;
+  margin: 0 100px;
+}
 
+.he-column {
+  column-count: 1;
+  height: 350px;
+}
+.he-banner-content h2{
+  font-size: 15px;
+  margin: 20px;
+
+}
+.he-parragraph {
+  text-align: justify;
+  font-size: 15px;
+}
