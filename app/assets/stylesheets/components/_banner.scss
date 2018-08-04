@@ -46,7 +46,6 @@
   margin-left: 50px;
   margin-bottom: 5px;
   margin-top:0px;
-
   text-align: left;
 }
 
@@ -57,7 +56,6 @@
   margin-left: 50px;
   margin-bottom: 3px;
   margin-top:0px;
-
   text-align: left;
 }
 
@@ -81,11 +79,7 @@
   align-items: center;
 }
 
-.qs-columns {
-  column-count: 2;
-  column-gap: 40px;
-  margin: 0 150px;
-}
+
 .qs-banner-content h1{
   margin: 25px;
 
@@ -97,30 +91,10 @@
 
 .ss-banner{
   color: black;
-  text-align: center;
+
   height: 93vh;
   background-size: cover !important;
-  display: flex;
-  align-items: center;
-}
 
-.ss-columns {
-  column-count: 3;
-  column-gap: 40px;
-  margin: 0 150px;
-}
-
-.ss-column {
-  text-align: center;
-  align-items: center;
-
-  column-count: 1;
-  height: 600px;
-  width: 300px;
-}
-
-.icon-box {
-  background-size: cover !important;
 }
 
 .ss-banner-content h2{
@@ -134,10 +108,10 @@
 }
 
 .cl-banner {
+  margin-top: 20px;
   text-align: center;
   align-items: center;
 }
-
 
 .he-banner{
   color: black;
@@ -148,16 +122,6 @@
   align-items: center;
 }
 
-.he-columns {
-  column-count: 4;
-  column-gap: 30px;
-  margin: 0 100px;
-}
-
-.he-column {
-  column-count: 1;
-  height: 350px;
-}
 .he-banner-content h2{
   font-size: 15px;
   margin: 20px;
@@ -166,4 +130,28 @@
 .he-parragraph {
   text-align: justify;
   font-size: 15px;
+}
+
+.cont-banner {
+  background-color: #B9B3B3;
+  text-align: center;
+  height: 20vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+
+  align-items: center;
+  color: #4A4748;
+}
+
+.cont-banner h2 {
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+  margin-left: 10px;
+}
+.cont-banner-content{
+  text-align: center;
+  a {
+  font-size: 20px;
+  }
 }

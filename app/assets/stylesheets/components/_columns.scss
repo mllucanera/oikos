@@ -1,0 +1,49 @@
+.qs-columns {
+  column-count: 2;
+  column-gap: 40px;
+  margin: 0 150px;
+}
+
+.ss-columns {
+  column-count: 3;
+  column-gap: 40px;
+  margin: 0 150px;
+}
+
+.ss-column {
+  text-align: center;
+  align-items: center;
+  column-count: 1;
+  height: 600px;
+  width: 300px;
+}
+
+.icon-box {
+  background-size: cover !important;
+
+}
+
+.he-columns {
+  column-count: 4;
+  column-gap: 30px;
+  margin: 0 100px;
+}
+
+.he-column {
+  column-count: 1;
+  height: 350px;
+}
+
+.cont-columns {
+  column-count: 2;
+  column-gap: 40px;
+  margin: 0 150px;
+  text-align: center;
+}
+
+.cont-column{
+  column-count: 1;
+  font-size: 20px;
+  font-family: "Font Awesome 5 Brands";
+}
+
