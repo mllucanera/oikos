@@ -65,20 +65,19 @@
 
 .ss-banner{
   color: black;
-  height: 100vh;
+  height: 60vh;
   background-size: cover !important;
-  padding-top:100px;
-
+  padding-top:20vh;
+  align-items: center;
 }
 
 .ss-banner-content h2{
   font-size: 20px;
-  margin: 20px;
 }
 
 .ss-parragraph {
   text-align: justify;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .cl-banner {
@@ -91,16 +90,15 @@
 .he-banner{
   color: black;
   text-align: center;
-  height: 100vh;
+  height: 70vh;
   background-size: cover !important;
   display: flex;
   align-items: center;
 }
 
-.he-banner-content h2{
-  font-size: 15px;
-  margin: 20px;
-
+.he-banner h2{
+  font-size: 20px;
+  margin-bottom: 4vh;
 }
 .he-parragraph {
   text-align: justify;
@@ -116,6 +114,7 @@
 
   align-items: center;
   color: #4A4748;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .cont-banner h2 {
@@ -123,10 +122,12 @@
   font-weight: bold;
   text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
   margin-left: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
 }
 .cont-banner-content{
   text-align: center;
   a {
-  font-size: 20px;
+    font-size: 20px;
   }
 }
