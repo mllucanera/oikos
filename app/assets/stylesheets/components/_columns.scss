@@ -7,34 +7,31 @@
 .ss-columns {
   column-count: 3;
   column-gap: 40px;
-  margin: 0 150px;
+  margin: 0 10vh;
 }
 
 .ss-column {
   text-align: center;
   align-items: center;
   column-count: 1;
-  padding-top: 40px;
-  height: 600px;
-  width: 300px;
+  height: 60vh;
 }
 
 .icon-box {
   background-size: cover !important;
   text-align: center;
   align-items: center
-
 }
 
 .he-columns {
   column-count: 4;
-  column-gap: 30px;
-  margin: 0 100px;
+  column-gap: 10vh;
+  margin: 0 7vh;
 }
 
 .he-column {
   column-count: 1;
-  height: 350px;
+  height: 50vh;
 }
 
 .cont-columns {
@@ -49,4 +46,3 @@
   font-size: 20px;
   font-family: "Font Awesome 5 Brands";
 }
-
